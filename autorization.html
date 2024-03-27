@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Authorization</title>
+		<link rel="stylesheet" href="autorization.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="autorization-window">
+				<p class="autorization-title">Autorization</p>
+				<div class="autorization-input">
+					<input
+						class="input-label"
+						type="text"
+						id="login"
+						placeholder="Login"
+						required />
+					<input
+						class="input-label"
+						type="password"
+						id="password"
+						placeholder="Password"
+						required />
+				</div>
+				<button class="submit-btn">Submit</button>
+				<div class="error hidden">
+					<p class="error-text">Wrong password or login</p>
+				</div>
+			</div>
+		</div>
+		<script src="autorization.js"></script>
+	</body>
+</html>

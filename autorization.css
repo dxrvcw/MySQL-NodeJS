@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.autorization-window {
+	width: 400px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+	background-color: rgba(219, 219, 219, 0.7);
+	border-radius: 10px;
+}
+
+.autorization-title {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.input-label {
+	padding: 5px;
+}
+
+.submit-btn {
+	padding: 5px 15px;
+}
+
+.error {
+	position: absolute;
+	background-color: rgb(212, 65, 65);
+	padding: 10px 30px;
+	opacity: 0.9;
+	border-radius: 5px;
+	color: white;
+}
+
+.hidden {
+	display: none;
+}
